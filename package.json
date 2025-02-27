@@ -15,7 +15,7 @@
     "typescript": "^4.6.3"
   },
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "pnpm run build",
     "build": "microbundle --no-compress",
     "dev": "microbundle watch",
     "test": "jest"
